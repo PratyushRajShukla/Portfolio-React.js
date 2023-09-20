@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -116,55 +117,47 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "MongoExpress",
+      company_name: "MERN Stack",
+      icon: mongodb,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Nov 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A Social Network Project that uses MongoDB, Express.js and React.js.",
+        "Primarily Developed Backend for registering users and related CRUD operations tested via Postman." ,
+        "Data hosted in MongoDB Cloud Database. ",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Photo Upload-FastAPI",
+      company_name: "FastApi Python",
+      icon: docker,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "This is an image upload service's backend made with Python FastAPI.",
+        "This project uses Amazon S3 to store image files"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Snow Boarder",
+      company_name: "Game",
+      icon: github,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A Game made using Unity that uses Unity Particle System.",
+        "It gets its inspiration from games like Hill Climb Racing where a snowboarder has to move through the map by maintaining his balance and avoiding obstacles to reach finish line.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Delivery Driver",
+      company_name: "Game",
+      icon: github,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "April 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A Game made using Unity having a car model in the game with the objective to pick up parcels from around the map and deliver it a specified location."
       ],
     },
   ];
@@ -172,15 +165,15 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "What a Great Website!",
+      name: "Deepraj Jha",
+      designation: "Software Dev",
+      company: "Salsforce",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about Programming like Pratyush does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +181,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "What a fun and Talented Guy!!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
