@@ -3,10 +3,15 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import cs from "./cs.png";
+import node from "./node.png";
+import pyth from "./pyth.png";
+import fasta from "./fasta.png";
+import java from "./java.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import unity from "./unity.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -59,4 +64,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  unity,
+  java,
+  cs,
+  fasta,
+  pyth,
+  node
 };

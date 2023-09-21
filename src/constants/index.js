@@ -14,6 +14,11 @@ import {
     mongodb,
     git,
     figma,
+    node,
+    fasta,
+    cs,
+    pyth,
+    unity,
     docker,
     meta,
     starbucks,
@@ -24,6 +29,7 @@ import {
     tripguide,
     threejs,
     github,
+    java,
   } from "../assets";
   
   export const navLinks = [
@@ -62,6 +68,10 @@ import {
   
   const technologies = [
     {
+      name: "FASTAPI",
+      icon: fasta,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -74,20 +84,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: java,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "python",
+      icon: pyth,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "NODE.JS",
+      icon: node,
     },
     {
       name: "Node JS",
@@ -98,16 +108,16 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "C#",
+      icon: cs,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "unity",
+      icon: unity,
     },
     {
       name: "docker",
@@ -142,7 +152,7 @@ import {
     {
       title: "Snow Boarder",
       company_name: "Game",
-      icon: github,
+      icon: unity,
       iconBg: "#383E56",
       date: "April 2023 - Present",
       points: [
@@ -153,7 +163,7 @@ import {
     {
       title: "Delivery Driver",
       company_name: "Game",
-      icon: github,
+      icon: unity,
       iconBg: "#E6DEDD",
       date: "April 2023 - Present",
       points: [
