@@ -15,6 +15,9 @@ import unity from "./unity.png";
 import mernp from "./mernp.png";
 import wwwe from "./wwwe.png";
 import del from "./del.png";
+import deepr from "./deepr.jpg";
+import priya from "./priya.jpg";
+import raj from "./raj.jpg";
 import snow from "./snow.png";
 import fastp from "./fastp.png";
 import css from "./tech/css.png";
@@ -79,5 +82,8 @@ export {
   node,
   fastp,
   snow,
-  wwwe
+  wwwe,
+  deepr,
+  priya,
+  raj
 };

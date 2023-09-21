@@ -35,6 +35,9 @@ import {
     del,
     snow,
     wwwe,
+    raj,
+    deepr,
+    priya,
   } from "../assets";
   
   export const navLinks = [
@@ -184,23 +187,23 @@ import {
       name: "Deepraj Jha",
       designation: "Software Dev",
       company: "Salsforce",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: deepr,
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about Programming like Pratyush does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Priya Shukla",
+      designation: "Game Dev",
+      company: "Zynga Studios",
+      image: priya,
     },
     {
       testimonial:
-        "What a fun and Talented Guy!!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I truly enjoyed making this Website. I also enjoy maming Apps and Games",
+      name: "Pratyush Raj Shukla",
+      designation: "Self",
+      company: "Self",
+      image: raj,
     },
   ];
   
