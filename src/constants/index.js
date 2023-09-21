@@ -30,6 +30,11 @@ import {
     threejs,
     github,
     java,
+    mernp,
+    fastp,
+    del,
+    snow,
+    wwwe,
   } from "../assets";
   
   export const navLinks = [
@@ -201,9 +206,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MongoExpress",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Social Network Project that uses MongoDB, Express.js and React.js. Primarily Developed Backend for registering users and related CRUD operations tested via Postman. Data hosted in MongoDB Cloud Database.",
       tags: [
         {
           name: "react",
@@ -214,54 +219,96 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: mernp,
+      source_code_link: "https://github.com/PratyushRajShukla/MongoExpress",
     },
     {
-      name: "Job IT",
+      name: "Photo Upload-FastAPI",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This is an image upload service's backend made with Python FastAPI. This project uses Amazon S3 to store image files",
       tags: [
         {
-          name: "react",
+          name: "FastAPI",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "AmazonS3",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Docker",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: fastp,
+      source_code_link: "https://github.com/PratyushRajShukla/Photo-Upload-FastApi",
     },
     {
-      name: "Trip Guide",
+      name: "Snow Boarder",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Game made using Unity that uses Unity Particle System. It gets its inspiration from games like Hill Climb Racing where a snowboarder has to move through the map by maintaining his balance and avoiding obstacles to reach finish line.",
       tags: [
         {
-          name: "nextjs",
+          name: "unity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "UniyParticleSystem",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "C#",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: snow,
+      source_code_link: "https://github.com/PratyushRajShukla/Snowboarder",
+    },
+    {
+      name: "Delivery Driver",
+      description:
+        "A Game made using Unity having a car model in the game with the objective to pick up parcels from around the map and deliver it a specified location.",
+      tags: [
+        {
+          name: "unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Game",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: del,
+      source_code_link: "https://github.com/PratyushRajShukla/DeliveryMan",
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "A Portfolio Website made using react.js, three js, Tailwind CSS, React three fiber. Hosted on github pages.",
+      tags: [
+        {
+          name: "ReactThreeFiber",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: wwwe,
+      source_code_link: "https://github.com/PratyushRajShukla/Portfolio-React.js",
     },
   ];
   

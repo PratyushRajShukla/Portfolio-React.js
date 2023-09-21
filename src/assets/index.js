@@ -12,6 +12,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import unity from "./unity.png";
+import mernp from "./mernp.png";
+import wwwe from "./wwwe.png";
+import del from "./del.png";
+import snow from "./snow.png";
+import fastp from "./fastp.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -37,7 +42,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  del,
   backend,
+  mernp,
   creator,
   mobile,
   web,
@@ -69,5 +76,8 @@ export {
   cs,
   fasta,
   pyth,
-  node
+  node,
+  fastp,
+  snow,
+  wwwe
 };
