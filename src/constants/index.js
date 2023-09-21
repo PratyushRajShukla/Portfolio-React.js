@@ -107,10 +107,10 @@ import {
       name: "NODE.JS",
       icon: node,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -271,48 +271,48 @@ import {
       image: snow,
       source_code_link: "https://github.com/PratyushRajShukla/Snowboarder",
     },
-    {
-      name: "Delivery Driver",
-      description:
-        "A Game made using Unity having a car model in the game with the objective to pick up parcels from around the map and deliver it a specified location.",
-      tags: [
-        {
-          name: "unity",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "C#",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Game",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: del,
-      source_code_link: "https://github.com/PratyushRajShukla/DeliveryMan",
-    },
-    {
-      name: "Portfolio Website",
-      description:
-        "A Portfolio Website made using react.js, three js, Tailwind CSS, React three fiber. Hosted on github pages.",
-      tags: [
-        {
-          name: "ReactThreeFiber",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Threejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "React",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: wwwe,
-      source_code_link: "https://github.com/PratyushRajShukla/Portfolio-React.js",
-    },
+    // {
+    //   name: "Delivery Driver",
+    //   description:
+    //     "A Game made using Unity having a car model in the game with the objective to pick up parcels from around the map and deliver it a specified location.",
+    //   tags: [
+    //     {
+    //       name: "unity",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "C#",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Game",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: del,
+    //   source_code_link: "https://github.com/PratyushRajShukla/DeliveryMan",
+    // },
+    // {
+    //   name: "Portfolio Website",
+    //   description:
+    //     "A Portfolio Website made using react.js, three js, Tailwind CSS, React three fiber. Hosted on github pages.",
+    //   tags: [
+    //     {
+    //       name: "ReactThreeFiber",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Threejs",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "React",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: wwwe,
+    //   source_code_link: "https://github.com/PratyushRajShukla/Portfolio-React.js",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
